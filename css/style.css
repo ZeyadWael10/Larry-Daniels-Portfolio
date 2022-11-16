@@ -1,0 +1,218 @@
+/* Start Global */
+body{
+
+font-family: 'Montserrat', sans-serif;
+}
+.section-padding{
+    padding: 100px 0;
+}
+:root{
+    --maincolor:#F7F7F7;
+    --secondarycolor:#FFFFFF;
+    --fontcolor:#1C1C1C;
+}
+.btn:hover{
+    background-color: var(--secondarycolor) !important;
+    color: var(--fontcolor);
+}
+.btn{
+    border: var(--fontcolor) solid !important;
+}
+.icon-holder:hover{
+    background-color: var(--fontcolor);
+    color: var(--secondarycolor);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+/* End Global */
+/* Start navbar */
+.navbar-brand{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+/* End navbar */
+/* Start Header*/
+header{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.63);
+    height:100vh;
+}
+.head-title{
+    font-size: 50px;
+}
+.fs-custom{
+    font-size: 70px;
+}
+.social-links-holder{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: var(--fontcolor);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.social-links-holder i{
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.header-caption span{
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.header-caption span::after{
+    content: "  |";
+    animation: typing 5s infinite alternate;
+    -webkit-animation: typing 5s infinite alternate;
+}
+@keyframes typing {
+    0%{content: "|";}
+    10% {content: " |";}
+    15%{content: "De|";}
+    25%{content: "Deve|";}
+    30%{content: "Develop|";}
+    35%{content: "Developer|";}
+    40%{content: "Devel|";}
+    45%{content: "De|";}
+    50%{content: " |";}
+    55%{content: "Des|";}
+    60%{content: "Design|";}
+    65%{content: "Designer|";}
+    70% {content: "Desi|";}
+    75%{content: " |";}
+    80%{content: "Lar|";}
+    85%{content: "Larry |";}
+    90%{content: "Larry Da|";}
+    95%{content: "Laryy Danie|";}
+    100%{content: "Larry Daniels.|";}
+}
+.social-links a{
+    padding:0px 2px !important ;
+}
+/*  End Header  */
+/* Start About Section */
+.progress{
+    min-height: 5vh;
+}
+.download:hover{
+    background-color: var(--secondarycolor) !important;
+    color: var(--fontcolor);
+}
+/* End About Section */
+
+/* Start Services Section */
+.Services{
+    background-color: var(--maincolor);
+}
+.title{
+    font-size: 50px;
+    font-weight: 900;
+}
+/* End Services Section */
+/* Start Portfolio Section */
+.img-item img{
+width: 100%;
+height: 300px;
+}
+/* End Portfolio Section */
+/* Start Client Section */
+.Client{
+    background-color: var(--maincolor);
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.carousel-indicators{
+    top: 300px;
+    color:var(--fontcolor);
+}
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color:var(--fontcolor);
+    background-color: var(--fontcolor);
+}
+.carousel-caption{
+    position: relative;
+    color: var(--fontcolor);
+    left: 0;
+    right: 0;
+}
+/* End Client Section */
+/* Start Achievment Section */
+
+/* End Achievment Section */
+/* Start Blog Section */
+.Blog{
+    background-color: var(--maincolor);
+}
+.card-img{
+    overflow: hidden;
+    transition: transform 1.5s ease;
+    -webkit-transition: transform 1.5s ease;
+    -moz-transition: transform 1.5s ease;
+    -ms-transition: transform 1.5s ease;
+    -o-transition: transform 1.5s ease;
+}
+.card img:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+/* End Blog Section */
+/* Start Contact Section */
+.btn{
+    width: 150px;
+}
+.btn-primary{
+    background-color: var(--fontcolor) !important;
+}
+.icon-holder{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: var(--maincolor);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn:focus{
+    box-shadow:var(--fontcolor)!important;
+}
+/* End Contact section */
+/* Start footer */
+footer{
+    background-color: var(--fontcolor);
+}
+/* End Footer */
